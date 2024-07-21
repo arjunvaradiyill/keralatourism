@@ -86,24 +86,25 @@
                 <li><strong>Thrissur:</strong> Known for its vibrant festivals and rich cultural heritage.</li>
                 <li><strong>Wayanad:</strong> Famous for its wildlife sanctuaries and scenic hill stations.</li>
             </ul>
-        </section>
-        
-        
+        </section>        
         <fieldset id="contact">
             <legend><h3>Contact Us</h3></legend>
-            <form action="#">
+            <form action="#" method="post">
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
                 <br><br>
+                
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
                 <br><br>
+                
                 <label for="phone-number">Phone Number:</label>
-                <input type="tel" name="phone-number" id="phone-number" pattern="[6789][0-9]{9}" required title="Please enter a valid mobile number">
+                <input type="tel" name="phone-number" id="phone-number" pattern="[6789][0-9]{9}" placeholder="Enter your phone number" required title="Please enter a valid mobile number starting with 6, 7, 8, or 9">
                 <br><br>
+                
                 <label for="location">Select District:</label>
                 <select name="location" id="location" required>
-                    <option value="">Select District</option>
+                    <option value="" disabled selected>Select District</option>
                     <option value="Alappuzha">Alappuzha</option>
                     <option value="Ernakulam">Ernakulam</option>
                     <option value="Idukki">Idukki</option>
@@ -120,9 +121,9 @@
                     <option value="Wayanad">Wayanad</option>
                 </select>
                 <br><br>
+                
                 <button type="submit">Submit</button>
             </form>
-        </fieldset>
     </main>
     <footer>
         <p>All rights reserved © Kerala Tourism 2024</p>
