@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+    <link rel="icon" type="image/x-icon" href="./images/Kerala_Tourism_8MBbARQ.jpg">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./Images/Kerala_Tourism_8MBbARQ.jpg" alt="Kerala Tourism Logo" height="130px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#districts">Districts</a></li>
+                <li><a href="#top-destinations">Top Destinations</a></li>
+                <li><a href="#about-kerala">About Kerala</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><button>Login</button></li>
+                <li><button>Sign Up</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Experience the Beauty and Culture of Kerala</h1>
+            <p>Welcome to Kerala, God's Own Country. Explore our rich culture, scenic landscapes, and vibrant traditions.</p>
+            <a href="#contact">Learn More</a>
+        </section>
+        <hr>
+        <section id="top-destinations">
+            <h1>Top Destinations</h1>
+            <div class="destination-images">
+                <article>
+                    <p><strong>Munnar</strong></p>
+                    <img src="./images/one-day-munnar-local-sightseeing-tour-package-with-top-station-by-private-car-header.webp" alt="Munnar" width="600px">
+                    <p>Munnar is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former resort for the British Raj elite, it's surrounded by rolling hills dotted with tea plantations established in the late 19th century. Eravikulam National Park, a habitat for the endangered mountain goat Nilgiri tahr, is home to the Lakkam Waterfalls, hiking trails and 2,695m-tall Anamudi</p>
+                </article>
+                <hr>
+                <article>
+                    <p><strong>Kolukkumalai</strong></p>
+                    <img src="./images/kolu.jpg" alt="Kolukkumalai" width="600px">
+                    <p>Kolukkumalai is a small village/hamlet in Bodinayakanur Taluk in the Theni district of the Indian state of Tamil Nadu. It is home to the highest tea plantation in the world with the tea grown here possessing a special flavour and freshness because of the high altitude.</p>
+                </article>
+                <hr>
+                <article>
+                    <p><strong>Bekal Fort</strong></p>
+                    <img src="./images/bekal.jpg" alt="Bekal Fort" width="600px">
+                    <p>Bekal Fort is a medieval fort built by Shivappa Nayaka of Keladi in 1650 AD, at Bekal. It is the largest fort in Kerala, spreading over 40 acres</p>
+                </article>
+                <hr>
+                <article>
+                    <img src="./images/kum.jpg" alt="Kumarakom" width="600px">
+                    <p>Kumarakom</p>
+                    <p>Kumarakom is a village on Vembanad Lake in the backwaters of Kerala, southern India. It’s laced with canals, where houseboats ply the waters. Kumarakom Bird Sanctuary is home to many species including cuckoos and Siberian storks. Nearby, the Bay Island Driftwood Museum displays wooden sculptures. In the lake, Pathiramanal Island is a haven for rare migratory birds. Ancient Thazhathangady Mosque is east of Kumarakom.</p>
+                </article>
+            </div>
+        </section>
+        <hr>
+        <section id="about-kerala">
+            <h1>About Kerala</h1>
+            <img src="images/banner.jpg" alt="Map of Kerala" width="600px">
+            <p>Kerala is a southwestern coastal state of India known for its stunning landscapes and rich cultural heritage. It stretches along the Malabar Coast and is bordered by Karnataka, Tamil Nadu, and the Arabian Sea. The state's unique culture has been shaped by its diverse history and geographical location. Kerala is renowned for its high literacy rate, progressive social systems, and beautiful natural attractions.</p>
+        </section>
+        <section id="districts">
+            <h1>Explore Our Districts</h1>
+            <img src="images/4ea978487b9b4ba9fc4ebc560dff03f1.jpg" alt="">
+            
+            <p>Kerala is divided into 14 districts, each offering unique experiences and attractions:</p>
+            <ul>
+                <li><strong>Alappuzha:</strong> Known for its picturesque backwaters and houseboat cruises.</li>
+                <li><strong>Ernakulam:</strong> A bustling commercial center with a blend of modern and traditional attractions.</li>
+                <li><strong>Idukki:</strong> Famous for its stunning hills and wildlife sanctuaries.</li>
+                <li><strong>Kannur:</strong> Renowned for its pristine beaches and rich cultural heritage.</li>
+                <li><strong>Kasargod:</strong> Home to diverse cultural traditions and scenic landscapes.</li>
+                <li><strong>Kollam:</strong> Known for its historic significance and backwater tourism.</li>
+                <li><strong>Kottayam:</strong> Famous for its lush rubber plantations and natural beauty.</li>
+                <li><strong>Kozhikode:</strong> Known for its rich history and delicious cuisine.</li>
+                <li><strong>Malappuram:</strong> Offers a mix of historical sites and natural beauty.</li>
+                <li><strong>Palakkad:</strong> Known for its scenic landscapes and ancient forts.</li>
+                <li><strong>Pathanamthita:</strong> Famous for its pilgrimage centers and natural attractions.</li>
+                <li><strong>Thiruvananthapuram:</strong> The state capital, rich in historical and cultural landmarks.</li>
+                <li><strong>Thrissur:</strong> Known for its vibrant festivals and rich cultural heritage.</li>
+                <li><strong>Wayanad:</strong> Famous for its wildlife sanctuaries and scenic hill stations.</li>
+            </ul>
+        </section>
+        
+        
+        <fieldset id="contact">
+            <legend><h3>Contact Us</h3></legend>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <br><br>
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" name="phone-number" id="phone-number" pattern="[6789][0-9]{9}" required title="Please enter a valid mobile number">
+                <br><br>
+                <label for="location">Select District:</label>
+                <select name="location" id="location" required>
+                    <option value="">Select District</option>
+                    <option value="Alappuzha">Alappuzha</option>
+                    <option value="Ernakulam">Ernakulam</option>
+                    <option value="Idukki">Idukki</option>
+                    <option value="Kannur">Kannur</option>
+                    <option value="Kasargod">Kasargod</option>
+                    <option value="Kollam">Kollam</option>
+                    <option value="Kottayam">Kottayam</option>
+                    <option value="Kozhikode">Kozhikode</option>
+                    <option value="Malappuram">Malappuram</option>
+                    <option value="Palakkad">Palakkad</option>
+                    <option value="Pathanamthita">Pathanamthita</option>
+                    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                    <option value="Thrissur">Thrissur</option>
+                    <option value="Wayanad">Wayanad</option>
+                </select>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <p>All rights reserved © Kerala Tourism 2024</p>
+    </footer>
+</body>
+</html>
